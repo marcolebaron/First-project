@@ -1,0 +1,140 @@
+/*footer styles*/
+.footer-column{
+    background-color: black;
+    color:gray;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    height:400px;
+    margin-top:-4px;
+   }
+   
+   .footer-column > .footer-Logo img {
+       width: 180px;
+       height:100%;
+       
+       filter: brightness(90%);/*Brillo de imagen*/
+   
+   }
+   
+   .footer-column > .footer-wrapps{
+       margin-left:10px;
+       margin-right: 10px;
+       font-size: 1em;
+       letter-spacing: 2px;
+   }
+   
+   .footer-column > .footer-wrapps > .num{
+       font-size: 1em;
+       color:rgb(255, 255, 255);
+   }
+   
+   .footer-column > .footer-wrapps > .date{
+       font-size: 1em;
+       color:rgb(255, 255, 255);
+       text-transform: uppercase;
+   
+   }
+   
+   .footer-column > .links-wrappers{
+       margin-top:40px;
+       margin-bottom:40px;
+       width:400px;
+   }
+   
+   .footer-column > .social-media-icons{
+       margin-top: 40px;
+       margin-bottom: 40px;
+       width:300px;
+       display:flex;
+       justify-content:space-around;
+   }
+   
+   .footer-column > .social-media-icons a{
+       font-size:1.5em;
+       color:white;
+       transition:0.8s;
+   }
+   
+   .footer-column > .social-media-icons a:hover{
+       color: rgb(130, 122, 106);
+   
+   }
+   
+   .footer-column > .copyright-wrappers {
+       color: rgb(255, 255, 255);
+   
+   }
+
+
+
+
+
+/* footer styles */
+/* .footer{
+    background-color: rgb(16, 14, 14);
+    color: white;
+    font-family: "ununtu condenced", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -4px;
+    color: white;
+}
+    
+.footer > .banner-image img {
+    width: 180px;
+    height: 100%;
+    filter: brightness(50%);
+
+}
+
+.footer > .footer-phone-hours >span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+.footer > .footer-phone-hours >span {
+    font-size: 0.8em;
+    color: white;
+    text-transform: capitalize;
+}
+
+.footer > .links-wrapper{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+
+    color: blue;
+}
+
+
+.footer > .social-media-icon-wrapper a{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer > .social-media-icon-wrapper a:hover{
+    font-size: 1.5 em;
+    color: white;
+    transition: 0.5;
+}
+
+.footer > .social-media-icon-wrapper a:hover{
+    color: white;
+}
+
+.footer > .copyright-wrapper{
+    margin-bottom: 42px;
+    font-size: 0.7em;
+    color: lightslategray;
+} */

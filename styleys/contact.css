@@ -1,0 +1,33 @@
+.contact-grid-wrappers{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 100px;
+}
+
+.company-coffe-wrapper > .logo img {
+width: 100%;
+margin-bottom: 20px;
+}
+
+.company-coffe-wrapper  > .contact-details-wrapper {
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-weight: 900;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     text-align: right;
+     font-size: 1.25em;
+     align-items: center;
+     padding-bottom: 30px;
+}
+
+.company-coffe-wrapper  > .contact-details-wrapper i{
+    color: #000000;
+}
+
+.contact-details-wrapper a{
+    color: black;
+    text-decoration: none;
+}

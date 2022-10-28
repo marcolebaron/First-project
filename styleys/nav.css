@@ -1,0 +1,136 @@
+/*styles comunes de nav*/
+.navigation-wrappers{
+    height:190px;
+    background-color: #000000;
+    color:rgb(255, 255, 255);
+    /*flebox contenido acomoda elemntos*/
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;/*funciona como manecillas de reloj Arriba,derecha,abajo,izquierda*/
+    
+}
+
+/*left column*/
+
+.navigation-wrappers>.left-column{
+    display:flex;
+    align-items: center;
+}
+.navigation-wrappers>.left-column>.icon{
+    margin-right: 15px;
+}
+.navigation-wrappers>.left-column>.icon i{
+    font-size: 2em;
+    color:rgb(255, 255, 255);
+}
+
+.left-column>.contact-hours-wrappers{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:10px;
+
+}
+.navigation-wrappers > .left-column > .contact-hours-wrappers>.phone{
+    font-family: 'Aboreto', cursive;
+    color:rgb(255, 255, 255);
+    font-size:0.8em;
+
+}
+.navigation-wrappers > .left-column > .contact-hours-wrappers>.hours{
+    font-family: 'Aboreto', cursive;
+    color:rgb(255, 255, 255);
+    font-size:0.8em;
+}
+
+/*center-column*/
+
+.navigation-wrappers > .center-column{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap:42px;
+    width: 500px;
+}
+.navigation-wrappers >  .center-column > .banner-image{
+     display: flex;
+    justify-content: center;
+}
+
+.navigation-wrappers >.center-column>.banner-image img{
+  width:216px;
+  height:100%
+}
+
+/*links wrappers*/
+
+.links-wrappers{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+.links-wrappers > .nav-link{
+   width:70px;
+   text-align:center;
+}
+
+.links-wrappers>.nav-link a{
+    font-family: 'Aboreto', cursive;
+    color:white;
+
+}
+
+.links-wrappers > .nav-link a{
+    font-family: 'Aboreto', cursive;
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    transition:0.5s;
+}
+.links-wrappers > .nav-link a:hover{
+    color:rgb(255, 255, 255);
+    letter-spacing:5px;
+}
+
+/*Right column*/
+
+.navigation-wrappers > .right-column{
+    display:flex;
+    align-items: center;
+}
+
+.navigation-wrappers > .right-column>.address-wrappers{
+    font-family: 'Aboreto', cursive;
+    text-align: right;
+}
+
+.navigation-wrappers > .right-column > .address-wrappers a{
+   color:rgb(255, 255, 255);
+   text-decoration: none;
+   font-size: 0.9em;
+   transition:0.5s;
+}
+
+.navigation-wrappers > .right-column > .contact-icon a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 0.9em;
+    transition:0.5s;
+ }
+
+.navigation-wrappers > .right-column > .address-wrappers a:hover{
+    color:rgb(255, 255, 255);
+    letter-spacing:5px;
+ }
+ 
+ .navigation-wrappers > .right-column > .contact-icon a:hover{
+    color:rgb(255, 255, 255);
+    letter-spacing:5px;
+ }
+ 
+
+.navigation-wrappers > .right-column > .contact-icon{
+    margin-left: 15px;
+    font-size: 2em;
+}
+
+/* footer */
